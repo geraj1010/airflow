@@ -111,7 +111,7 @@ class DockerSwarmOperator(DockerOperator):
         All option values must be strings and wrapped in double quotes.
         For information on 'json-file' options: https://docs.docker.com/engine/logging/drivers/json-file/
         For information on 'gelf' options: https://docs.docker.com/engine/logging/drivers/gelf/
-        NOTE: 'gelf' driver requires the 'gelf-address' option to be set.
+        NOTE: 'gelf' driver requires the 'gelf-address' option to be set. Test test
     """
 
     def __init__(
